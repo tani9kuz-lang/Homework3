@@ -3,8 +3,8 @@
 public class Main {
     public static void main(String[] args) {
         //Task 1
-        byte clientOS = 0;
-        if (clientOS < 1) {
+        byte clientOperatingSystem = 0;
+        if (clientOperatingSystem < 1) {
             System.out.println("Установите версию приложения для iOS по ссылке");
         } else {
             System.out.println("Установите версию приложения для Android по ссылке");
@@ -12,8 +12,8 @@ public class Main {
 
         //Task 2
         int clientDeviceYear = 2015;
-        int clientOS1 = 1;
-        if (clientOS1 == 0) {
+        int clientOS = 1;
+        if (clientOS == 0) {
             if (clientDeviceYear < 2015) {
                 System.out.println("Установите облегченную версию приложения для iOS по ссылке");
             } else {
@@ -48,7 +48,7 @@ public class Main {
         }
 
         //Task 5
-        char monthNumber = 5;
+        int monthNumber = 5;
         if (monthNumber < 1 && monthNumber > 12) {
             System.out.println("Ошибка, выберите номер месяца от 1 до 12");
         } else {
